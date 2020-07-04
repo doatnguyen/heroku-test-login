@@ -1,0 +1,8 @@
+{
+  "name": "Facebook Claim Using Node.js",
+  "description": "Facebook Claim Using Node.js",
+  "repository": "https://github.com/doatnguyen/heroku-test-nodejs.git",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

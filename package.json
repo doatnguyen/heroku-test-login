@@ -1,0 +1,39 @@
+{
+  "name": "heroku-test-login",
+  "version": "0.0.1",
+  "description": "login form using heroku",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+	"mongoose" : "~3.8.1",          
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+	"morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"    
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doatnguyen/heroku-test-login"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
